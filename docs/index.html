@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> Janay Mallory</title>
-    <style>
-       body {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #fec7d7;
-    display: flex;
-    justify-content: center;
-  }
-  .banner-image {
-  width: 128px;
-  height: 128px;
-  object-fit: cover;
-  border-radius: 128px;
-}
 
-  .thumbnail{
-    width: 48px;
-    height:48px;
-    border-radius: 48px;
-    object-fit: cover;
-  }
-    .name{ color: white;
-           display: flex;
-          justify-content: center;
+<head>
+    <title> Janay Mallory</title>
+    <video id="petals" autoplay loop muted poster>
+<source src="https://cdn.discordapp.com/attachments/733184598661398598/1072622983669096509/test.mp4" type="video/mp4">
+</video>
+    <style>
+        body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #fec7d7;
+            display: flex;
+            justify-content: center;
         }
-        .social-icons a{
-          color: white;
-          text-decoration:none;
-         }
-         .link {
-            background-color: #fffffe;
+
+        #petals {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        .banner-image {
+            width: 128px;
+            height: 128px;
+            object-fit: cover;
+            border-radius: 128px;
+        }
+
+        .thumbnail {
+            width: 48px;
+            height: 48px;
+            border-radius: 48px;
+            object-fit: cover;
+        }
+
+        .socials-name a {
+            background-color: rgba(195, 177, 211, 0.5);
+            border-radius: 48px;
+            text-decoration: none;
+            color: #fffffe;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .link {
+            background-color: rgba(195, 177, 211, 0.5);
+            border-radius: 48px;
             display: flex;
             align-items: center;
             padding: 5px;
@@ -58,64 +78,53 @@
             justify-content: center;
         }
 
-        .social-icons {
+        .socials-name {
             display: flex;
             justify-content: space-around;
         }
-      
-    .a {
-      background-color: #ff5733;
-    }
-    .b {
-      background-color: #ff5733;
-    }
-
-    .c {
-      background-color: #ff5733;
-    }
-    .d {
-      background-color: #ff5733;
-    }
     </style>
-  </head>
-  <body>
-<div class="items">
-   <div class="banner">
-     <img src="https://cdn.discordapp.com/avatars/681335032157175819/de2bd5c5d7b78d10a3b4df1224fb9032.webp"alt="Janay Mallory drawing" class="banner-image">
-</div>
+</head>
 
-  <div class="name">
-       Jaany Mallory
-  </div>
-  <div class="social-icons">
-    <a href="https://github.com/JMALL2/janaymallory.github.io" target="_blank"> Github
+<body>
+
+    <div class="items">
+        <div class="banner">
+            <img src="https://cdn.discordapp.com/avatars/681335032157175819/de2bd5c5d7b78d10a3b4df1224fb9032.webp" alt="Janay Mallory drawing" class="banner-image">
+        </div>
+
+        <div class="socials-name">
+            <a>Janay Mallory</a>
+
+        </div>
+
+        <div class="socials-name">
+
+            <a href="https://github.com/JMALL2/janaymallory.github.io" target="_blank"> Github
 </a>
-    <a href="https://www.linkedin.com/in/janaymallory/" target="_blank"> LinkedIn
-</a>
-</div>
+            <a href="https://www.linkedin.com/in/janaymallory/" target="_blank"> LinkedIn
+ </a>
+        </div>
+        <div class="link a">
+            <img src="https://media.discordapp.net/attachments/733184598661398598/1072545475930095686/IMG_5257.png" class="thumbnail">
 
-<div class="link a">
-    <img src="https://media.discordapp.net/attachments/733184598661398598/1072545475930095686/IMG_5257.png" class="thumbnail">
-<a target="_blank" href="https://www.youtube.com/watch?v=vSyt3D1eut8&t=2149s"> Morning Meditation </a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=vSyt3D1eut8&t=2149s"> Morning Meditation</a>
+        </div>
+        <div class="link b">
+            <img src="https://media.discordapp.net/attachments/733184598661398598/1072546042790281266/IMG_5261.png" class="thumbnail">
+            <a target="_blank" href="https://vocal.media/humans/dirt-to-die-for"> Dirt to die for-A short story by me </a>
+        </div>
+        <div class="link c">
+            <img src="https://media.discordapp.net/attachments/733184598661398598/1072546014575198248/IMG_5258.png" class="thumbnail">
 
-</div>
+            <a target="_blank" href="https://www.etsy.com/shop/AstrotoastDesigns"> My Etsy Shop- Astrotoast Designs</a>
+        </div>
+        <div class="link d">
+            <img src="https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2014/01/alanwatts.jpg?w=680&ssl=1" class="thumbnail">
+            <a target="_blank" href="https://www.youtube.com/watch?v=-RnafTtXMYI"> Alan Watts clip- There are no wrong feelings</a>
+        </div>
+</body>
+</script>
 
-<div class="link b">
-    <img src="https://media.discordapp.net/attachments/733184598661398598/1072546042790281266/IMG_5261.png" class="thumbnail">
-    <a target="_blank" href="https://vocal.media/humans/dirt-to-die-for"> Dirt to die for-A short story by me </a>
-</div>
-
-<div class="link c">
-    <img src="https://media.discordapp.net/attachments/733184598661398598/1072546014575198248/IMG_5258.png" class="thumbnail">
-
-    <a target="_blank" href="https://www.etsy.com/shop/AstrotoastDesigns"> My Etsy Shop- Astrotoast Designs</a>
-</div>
-<div class="link d">
-    <img src="https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2014/01/alanwatts.jpg?w=680&ssl=1" class="thumbnail">
-    <a target="_blank" href="https://www.youtube.com/watch?v=-RnafTtXMYI"> Alan Watts clip- There are no wrong feelings</a>
-</div>
-  </body>
 </html>
-
 
   
